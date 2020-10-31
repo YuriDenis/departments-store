@@ -1,0 +1,263 @@
+{
+  "departmentsData": [
+    {
+      "id": 1,
+      "name": "Clothes"
+    },
+    {
+      "id": 2,
+      "name": "Home appliances"
+    },
+    {
+      "id": 3,
+      "name": "Electronics"
+    }
+  ],
+  "categoriesData": [
+    {
+      "id": 1,
+      "name": "Baby clothes",
+      "IDdepartment": 1
+    },
+    {
+      "id": 2,
+      "name": "Women's clothes",
+      "IDdepartment": 1
+    },
+    {
+      "id": 3,
+      "name": "Lights",
+      "IDdepartment": 2
+    },
+    {
+      "id": 4,
+      "name": "Watchers",
+      "IDdepartment": 2
+    },
+    {
+      "id": 5,
+      "name": "Kitchen",
+      "IDdepartment": 2
+    },
+    {
+      "id": 6,
+      "name": "TV",
+      "IDdepartment": 3
+    },
+    {
+      "id": 7,
+      "name": "Cell phone",
+      "IDdepartment": 3
+    }
+  ],
+  "productsData": [
+    {
+      "id": 0,
+      "name": "Socks",
+      "IDdepartment": "1",
+      "IDcategory": "1",
+      "registered": "2018/01/01",
+      "status": "Pending"
+    },
+    {
+      "id": 1,
+      "name": "Shirt",
+      "IDdepartment": "1",
+      "IDcategory": "1",
+      "registered": "2018/01/01",
+      "status": "Active"
+    },
+    {
+      "id": 2,
+      "name": "Shorts",
+      "IDdepartment": 1,
+      "IDcategory": 1,
+      "registered": "2018/02/01",
+      "status": "Banned"
+    },
+    {
+      "id": 3,
+      "name": "Hat",
+      "IDdepartment": 1,
+      "IDcategory": 1,
+      "registered": "2018/02/01",
+      "status": "Inactive"
+    },
+    {
+      "id": 4,
+      "name": "Blouse",
+      "IDdepartment": 1,
+      "IDcategory": 2,
+      "registered": "2018/03/01",
+      "status": "Pending"
+    },
+    {
+      "id": 5,
+      "name": "Scarf",
+      "IDdepartment": 1,
+      "IDcategory": 2,
+      "registered": "2018/01/21",
+      "status": "Active"
+    },
+    {
+      "id": 6,
+      "name": "Hat",
+      "IDdepartment": 1,
+      "IDcategory": 2,
+      "registered": "2018/01/01",
+      "status": "Active"
+    },
+    {
+      "id": 7,
+      "name": "Coat",
+      "IDdepartment": 1,
+      "IDcategory": 2,
+      "registered": "2018/02/01",
+      "status": "Banned"
+    },
+    {
+      "id": 8,
+      "name": "Trousers",
+      "IDdepartment": 1,
+      "IDcategory": 2,
+      "registered": "2018/02/01",
+      "status": "Inactive"
+    },
+    {
+      "id": 9,
+      "name": "Internal light",
+      "IDdepartment": 2,
+      "IDcategory": 3,
+      "registered": "2018/03/01",
+      "status": "Pending"
+    },
+    {
+      "id": 10,
+      "name": "External light",
+      "IDdepartment": 2,
+      "IDcategory": 3,
+      "registered": "2018/01/21",
+      "status": "Active"
+    },
+    {
+      "id": 11,
+      "name": "Garden light",
+      "IDdepartment": 2,
+      "IDcategory": 3,
+      "registered": "2018/01/01",
+      "status": "Active"
+    },
+    {
+      "id": 12,
+      "name": "Ambient light",
+      "IDdepartment": 2,
+      "IDcategory": 3,
+      "registered": "2018/02/01",
+      "status": "Banned"
+    },
+    {
+      "id": 13,
+      "name": "Washing machine",
+      "IDdepartment": 2,
+      "IDcategory": 4,
+      "registered": "2018/02/01",
+      "status": "Inactive"
+    },
+    {
+      "id": 14,
+      "name": "Stove",
+      "IDdepartment": 2,
+      "IDcategory": 5,
+      "registered": "2018/03/01",
+      "status": "Pending"
+    },
+    {
+      "id": 15,
+      "name": "Mixer",
+      "IDdepartment": 2,
+      "IDcategory": 5,
+      "registered": "2018/01/21",
+      "status": "Active"
+    },
+    {
+      "id": 16,
+      "name": "Juicer",
+      "IDdepartment": 2,
+      "IDcategory": 5,
+      "registered": "2018/01/01",
+      "status": "Active"
+    },
+    {
+      "id": 17,
+      "name": "Samsung",
+      "IDdepartment": 3,
+      "IDcategory": 6,
+      "registered": "2018/02/01",
+      "status": "Banned"
+    },
+    {
+      "id": 18,
+      "name": "LG",
+      "IDdepartment": 3,
+      "IDcategory": 6,
+      "registered": "2018/02/01",
+      "status": "Inactive"
+    },
+    {
+      "id": 19,
+      "name": "Panasonic",
+      "IDdepartment": 3,
+      "IDcategory": 6,
+      "registered": "2018/03/01",
+      "status": "Pending"
+    },
+    {
+      "id": 20,
+      "name": "Sony",
+      "IDdepartment": 3,
+      "IDcategory": 6,
+      "registered": "2018/01/21",
+      "status": "Active"
+    },
+    {
+      "id": 21,
+      "name": "Samsung",
+      "IDdepartment": 3,
+      "IDcategory": 7,
+      "registered": "2018/01/01",
+      "status": "Active"
+    },
+    {
+      "id": 22,
+      "name": "Apple",
+      "IDdepartment": 3,
+      "IDcategory": 7,
+      "registered": "2018/02/01",
+      "status": "Banned"
+    },
+    {
+      "id": 23,
+      "name": "LG",
+      "IDdepartment": 3,
+      "IDcategory": 7,
+      "registered": "2018/01/01",
+      "status": "Pending"
+    },
+    {
+      "id": 24,
+      "name": "Xiaomi",
+      "IDdepartment": 3,
+      "IDcategory": 7,
+      "registered": "2001/05/25",
+      "status": "Don't panic!"
+    },
+    {
+      "id": 27,
+      "name": "InTheNews",
+      "IDdepartment": "1",
+      "IDcategory": "2",
+      "registered": "",
+      "status": ""
+    }
+  ]
+}
